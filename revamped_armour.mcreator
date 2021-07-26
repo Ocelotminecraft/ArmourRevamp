@@ -14,12 +14,70 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "SetupHealth",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "setup_health",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReloadDefenceModifier",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reload_defence_modifier",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReloadDefence",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reload_defence"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "WorldDefenceModifier",
+      "type": "number",
+      "scope": "world",
+      "value": "0.5"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {}
