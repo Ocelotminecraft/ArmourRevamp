@@ -76,6 +76,18 @@
       "type": "number",
       "scope": "world",
       "value": "0.5"
+    },
+    {
+      "name": "PlayerHealth",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "20.0"
+    },
+    {
+      "name": "PlayerMaxHealth",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "20.0"
     }
   ],
   "sound_elements": [],
